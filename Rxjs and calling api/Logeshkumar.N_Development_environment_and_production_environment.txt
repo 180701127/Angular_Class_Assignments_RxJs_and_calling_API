@@ -1,0 +1,19 @@
+In Angular, observables are used to handle asynchronous data streams. They are a fundamental part of the RxJS library, which is commonly used in Angular applications for reactive programming. Observables provide a way to handle and manipulate streams of events or data over time. They allow you to perform various operations on the data streams, such as filtering, mapping, and transforming the emitted values.
+
+Observables are particularly useful in scenarios where you need to handle asynchronous operations like HTTP requests, user interactions, or real-time data updates. By using observables, you can subscribe to these data streams and react to the emitted values or events as they occur, enabling a more reactive and efficient way of managing asynchronous behavior in your Angular applications.
+
+Development Environment:
+
+The development environment is used during the development phase of an application.
+It provides tools and configurations optimized for development purposes, such as fast rebuilds, hot module replacement, and extensive logging.
+In this environment, you typically have access to debugging tools, source maps, and error messages that aid in identifying and resolving issues.
+The development environment may have additional overhead and features that are not necessary or optimized for production, allowing developers to work efficiently and debug code easily.
+It may include features like mock data, stubs, or development-specific configurations to facilitate local development and testing.
+
+Production Environment:
+
+The production environment is where the application runs after it has been developed and deployed for actual use by end users.
+It is optimized for performance, efficiency, and security, focusing on delivering the best experience to users.
+In the production environment, unnecessary development-specific tools, logs, and debug information are typically stripped out to reduce file sizes and improve performance.
+Performance optimizations, such as minification, compression, and caching, are commonly applied to the code and assets to reduce load times and bandwidth usage.
+The production environment may also have additional security measures in place, such as access restrictions and hardened configurations, to protect the application and its data.
